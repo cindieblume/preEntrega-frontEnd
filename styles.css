@@ -1,0 +1,118 @@
+
+header a {
+    color:  #000000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px; 
+    margin-right: 20px; 
+    
+    }
+
+h1 {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            border: 2px solid #a80d79;
+            padding: 0.5rem;
+            background-color: #a60;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+h2 {
+    color: #000000;
+    font-size:1.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    padding: 0.5rem;
+}
+h3 {
+    color: #a60b78;
+    
+} 
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.button {
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #FFA500
+}
+#inicio-sesion {
+    background-color: #FFA500;
+    border-color: #0bda4c;
+}
+
+#registro {
+    background-color: #FFA500;
+    border-color: #0bda4c;
+}
+
+#tendencias {
+    background-color: #FFA500;
+    border-color: #0bda4c;
+}
+
+.input-field {
+    margin-bottom: 1rem;
+}
+
+.input-field label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.ventana-emergente {
+    width: 300px; 
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+    
+.ventana-emergente input[type="text"],
+.ventana-emergente input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+
+.ventana-emergente button#btnGuardar {
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; 
+}
+}
+
+        
+        

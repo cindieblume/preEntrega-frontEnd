@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cinema</title>
+    <link rel="shortcut icon" href="./resources/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            h1{
+                font-family: Arial, sans-serif;
+            } 
+            h2,h3 {
+                font-family:'Lucida Sans', sans-serif ;
+            }
+            
+            
+            margin: 0;
+            padding: 0;
+            background-image: url(./resources/img/thomas-william-4qGbMEZb56c-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+            
+        }
+
+        header {
+            background-color: transparent;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        footer .social-icons {
+            text-align: center;
+            padding:20px 0;
+        }
+        footer .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 40%;
+        }
+    footer .fa:hover {
+        opacity: 0.7;
+    }  
+    footer .fa-facebook {
+        background: #b80a16;
+    }  
+    footer .fa-envelope {
+        background: #b80a16
+    }
+    footer .fa-instagram {
+        background: #b80a16;
+        
+    }
+
+            
+
+        
+
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <a href="./pages/inisiosesion.html">Inicio de Sesión</a>
+        <div id="ventanaEmergente" class="ventana-emergente" style="display: none;">
+            <input type="text" id="nombre" placeholder="María">
+            <input type="text" id="apellido" placeholder="Pérez">
+            <input type="password" id="contrasena" placeholder="Contraseña">
+            <button id="btnGuardar">Guardar</button>
+        </div>
+
+        <a href="./pages/registro.html">Registro</a>
+        <a href="./pages/estrenos.html">Tendencias</a>
+        
+        <h1>Películas y Series del Recuerdo</h1>
+        <h2>Tus Oldies favoritas.<br><br> Cinema de todos los tiempos a la carta. <br><br> Donde estés y donde estén tus recuerdos.</h2>
+        
+        <h3>Ir a Géneros <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M10.293 12.293L4.586 6.586 10.293.879 9.707.293 2.414 7.586l7.293 7.293z"/></svg></h3>
+        
+    </header>
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://facebook.com/tuUsuario" 
+                class="fa fa-facebook" 
+                target="_blank"></a>
+                <a href="mailto:tuEmail@gmail.com" 
+                class="fa fa-envelope"
+                target="_blank"></a>
+                <a href="https://www.instagram.com/tuUsuario"
+                class="fa fa-instagram"
+                target="_blank"></a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+
+</html>
